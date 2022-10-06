@@ -1,0 +1,44 @@
+:root {
+  --bg-black: #000000;
+  --bg-white: #ffffff;
+  --bg-grey: #272727;
+  --link-blue: #7ea2ec;
+  --navbar: #101010;
+  --mobile-box-shadow: #b0b0b229 0px -5px 6px 0px inset,
+    #0000003d 4px 6px 11px 1px inset;
+  --mobile-bg: #272b2d;
+  --bg-green: #027757;
+  --bg-gray: #272727;
+  --link-blue: #7ea2ec;
+  --bg-light-gray: #272b2d6e;
+  --bg-red: #ee2f4c;
+  --bg-purple: rgb(90, 30, 203);
+  --bg-blue: #5989A9;
+  
+  /* tag heuer */
+  --tg-button-red: #C80001;
+  --tg-white: #fffeff;
+  --tg-black: #010000;
+  --tg-border-grey: #404141;
+  --tg-text-grey: #58626b;
+  --tg-light-grey: #f8f9f9;
+  --tg-bg-grey: #d6d7d7;
+  --tg-bg-dark-grey: #111010;
+  --tg-bg-light-back: #141415;
+  --tg-bg-black: #010000;
+  --tg-bg-orange: #f0661b;
+  --vhHeader: 7.31px;
+
+  --sm-bg-white: #ffffff;
+
+
+  /* footer */
+
+  --footer-bg : #151515;
+  --footer-bg2 : #101010;
+  --footer-color : #808080;
+
+
+
+  
+}

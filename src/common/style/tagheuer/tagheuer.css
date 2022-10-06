@@ -1,0 +1,22 @@
+.content-container {
+    color: var(--tg-black);
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-subheader {
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-weight: bolder;
+    font-size: 12px;
+    width: 100%;
+}
+
+.content-header {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bolder;
+    width: 90%;
+    margin-top: 25px;
+}
+

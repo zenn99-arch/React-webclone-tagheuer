@@ -1,0 +1,80 @@
+.sg-photo-gallery {
+    height: 120vh;
+    background-color: var(--sm-bg-white);
+}
+
+.sg-photo-gallery-container {
+    margin-top: 100px;
+}
+
+.sg-photo-gallery-top-text {
+    margin-left: 200px;
+}
+
+.sg-photo-gallery-subheading {
+    font-size: var(--sm-subheader-height);
+}
+
+.sg-photo-gallery-heading {
+    font-size: var(--sm-header-height);
+    max-width: 500px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.sg-photo-gallery-images-grid {
+    margin: 150px;
+    margin-top: 50px;
+    height: 800px;
+    gap: 20px;
+}
+
+.sg-photo-gallery-grid-image.sec1 {
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    gap: 20px;
+}
+
+.sg-photo-gallery-grid-image.sec2 {
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    gap: 20px;
+}
+
+.sg-photo-gallery-grid-image.sec3 {
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    gap: 20px;
+}
+
+.sg-photo-gallery-grid-image-v {
+    width: 100%;
+    background-size: cover;
+}
+
+.sg-photo-gallery-grid-image-v.image1 {
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sg-photo-gallery-grid-image-v.image2 {
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sg-photo-gallery-grid-image-v.image3 {
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sg-photo-gallery-grid-image-v.image4 {
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+}

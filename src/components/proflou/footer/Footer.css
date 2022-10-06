@@ -1,0 +1,320 @@
+.footerlogo{
+	height: 6.5vh;
+	margin-top: 2vh;
+}
+
+.logotext{
+	width: 20vw;
+	margin: 2vh 0;
+	font-size: 12px;
+	color: #565656;
+}
+.formtext{
+	margin: 0px 0px 12px;
+	font-size: 12px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #565656;
+}
+
+#mail{
+	text-decoration: none !important;
+	color: #565656;
+	font-weight: 300;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    resize: vertical 
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    resize: vertical 
+}
+
+.logopt{
+	margin-bottom: 5px;
+}
+
+.container{
+	max-width: 100%;
+	margin:auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+ul{
+	list-style: none;
+    padding: 0px;
+}
+.footer {
+	background-color: #F8F8F8;
+    padding: 20px 0;
+    border-top: 3px;
+    border-color: #ffffff;
+}
+.footer-col{
+   width: 35%;
+   padding: 0 10px;
+   
+}
+
+.footerformbutton{
+	
+	background-color: #04AA6D;
+    color: white;
+    padding: 8px 21px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.footer-col h4{
+	font-size: 14px;
+	color: #222222;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -7px;
+    background-color: var(--tg-bg-orange);
+    height: 1px;
+    box-sizing: border-box;
+    width: 41px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+    margin: 0px 0px 12px;
+	font-size: 12px;
+	text-transform: capitalize;
+	
+	text-decoration: none;
+	font-weight: 300;
+	color: #565656;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ff8819;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 35px;
+	font-size: 15px;
+	margin: 0 5px 0px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #616161;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #ff8819;
+	font-size: 18px;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.copyright{
+    background-color: #e4e4e4;
+    color: var(--footer-color);
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.branding{
+	
+	background-color: #DDE0E7;
+    padding: 30px 0;
+	
+	color: var(--footer-color);
+    
+    
+}
+
+
+
+.logoimage{
+	max-width: 15rem;
+}
+
+
+@media all and (max-width: 768px) {
+	.copyright {
+		
+		font-size: 10px;
+	}
+
+	.footerlogo {
+		height: 4.5vh;
+		
+	}
+
+	.logopt {
+		margin-bottom: 5px;
+		font-size: 10px;
+	}
+
+	.footer-col .social-links a {
+		font-size: 13px;
+		margin: 0 0px 0px 0;
+	}
+  }
+
+
+  @media all and (max-width:430px) {
+	.copyright {
+		
+		font-size: 8px;
+	}
+
+	.footerlogo {
+		height: 3vh;
+	}
+
+	.footer-col {
+		padding: 0 4px;
+		margin: 0 0px;
+	}
+
+	
+	.footer-col h4 {
+		font-size: 12px;
+	}
+	.footer-col ul li a {
+		margin: 0px 0px 12px;
+		font-size: 10px;
+	}
+
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 5px;
+	}
+	
+	input[type=email], select, textarea {
+		width: 100%;
+		padding: 5px;
+	}
+
+	
+	.logopt {
+		margin-bottom: 5px;
+		font-size: 8px;
+	}
+
+	.footer-col .social-links a {
+		font-size: 13px;
+		margin: 0 0px 0px 0;
+	}
+
+	.footerformbutton {
+		padding: 6px 13px;
+	}
+
+	
+
+}
+
+
+@media all and (max-width:380px) {
+	.copyright {
+		
+		font-size: 8px;
+	}
+
+	.footerlogo {
+		height: 3vh;
+    margin-left: -10px;
+	}
+
+	.footer-col h4 {
+		font-size: 12px;
+	}
+	.footer-col ul li a {
+		margin: 0px 0px 12px;
+		font-size: 10px;
+	}
+
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 5px;
+	}
+
+	input[type=email], select, textarea {
+		width: 100%;
+		padding: 5px;
+	}
+
+	
+	.logopt {
+		margin-bottom: 5px;
+		font-size: 8px;
+	}
+
+	.footer-col .social-links a {
+		font-size: 13px;
+		margin: 0 0px 0px 0;
+	}
+
+	.footerformbutton {
+		padding: 6px 13px;
+	}
+
+	
+
+	.footercontainer {
+		
+ width: 95% !important;
+	}
+
+	.footer-col {
+		padding: 0 4px;
+		margin: 0 0px;
+	}
+	
+	.row {
+		display: flex;
+		width: 95vw;
+	}
+
+}
+
+

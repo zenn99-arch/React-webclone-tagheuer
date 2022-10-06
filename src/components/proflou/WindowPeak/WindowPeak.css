@@ -1,0 +1,8 @@
+.window-peak{
+    background-image: url(../../../assets/images/proflou/windowpeek.jpg);
+    min-height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

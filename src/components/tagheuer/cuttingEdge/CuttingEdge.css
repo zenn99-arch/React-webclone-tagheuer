@@ -1,0 +1,41 @@
+.cutting-wrapper{
+    padding: 160px 0px;
+    background-color: var(--tg-white);
+    text-transform: uppercase;
+}
+
+.cutting-headline{
+    font-size: 16px;
+    font-weight:bold;
+    margin: 0px 0px 30px ;
+    color: var(--bg-blue);
+}
+
+.cutting-para{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--bg-blue);
+    
+}
+
+/* from tablet */
+@media all and (max-width: 780px) {
+    .cutting-para{
+        font-size: 40px;
+    }
+  }
+
+
+  @media all and (max-width: 490px) {
+    .cutting-para{
+        font-size: 30px;
+    }
+}
+  
+
+ /* from mobile */
+ @media all and (max-width: 426px) {
+    .cutting-para{
+        font-size: 25px;
+    }
+  }

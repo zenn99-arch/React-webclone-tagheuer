@@ -1,0 +1,226 @@
+.contact-container {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background: var(--tg-white);
+    margin: 0 0 60px 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  .left-col {
+    width: 37vw;
+    height: 100vh;
+    background-image: url("../../../assets/images/proflou/bottom_card-push-lg-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+  
+
+  
+  .right-col {
+    background: var(--tg-white);
+    width: 50vw;
+    height: 100vh;
+   
+  }
+  
+  .sideheading {
+   
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+  }
+  
+  .sideheading {
+    color:var(--h1-color);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+  }
+  
+  .sidepara {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    letter-spacing: 0.01rem;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+  }
+
+  input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 25px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+ 
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 25px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .formwrapper {
+    border-radius: 5px;
+    margin: 5px 25px 0px 15px;
+    padding: 39px 22px;
+  }
+
+  .postertext{
+    margin: 270px 100px 0px;
+    overflow: hidden;
+  }
+
+
+  .poster-headline {
+    font-size: 16px;
+    margin: 0px 0px 30px;
+    font-weight: bold;
+    /* color: var(--tg-black); */
+    color: var(--tg-white);
+    
+}
+
+.poster-para {
+ 
+    font-size: 39px;
+    font-weight: bold;
+    /* color: var(--tg-black); */
+    color:  var(--tg-white);
+}
+
+
+.notification {
+  animation: fadein 0.3s ease-in-out;
+  background-color: #c8d8ff;
+  border-radius: 4px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+  color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.notification-error {
+  background-color: #f9c5c5;
+}
+
+.notification-success {
+  background-color: #d9f59f;
+}
+
+.notification-content {
+  padding: 1rem;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.contactimg{
+  width: 100%;
+    height: auto;
+    margin-top: 4vh;
+    background-repeat: no-repeat;
+  background-size: contain;
+    overflow:hidden;
+}
+
+@media all and (max-width: 1024px) {
+      
+  .poster-para {
+    font-size: 20px;
+  }
+  .poster-headline {
+    font-size: 13px;
+  }
+  
+
+  .contact-container {
+    
+    margin: 125px 0 100px 0;
+   
+}
+  
+}
+
+ /* from tablet */
+ @media all and (max-width: 768px) {
+  .right-col {
+    background: var(--tg-white);
+    width: 75vw;
+    height: auto;
+    padding: 10px;
+}
+
+.sidepara {
+  width: 85vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sideheading {
+  font-size: 2rem;
+  
+}
+}
+
+@media all and (max-width: 600px) {
+  .right-col {
+    background: var(--tg-white);
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+}
+
+.sidepara {
+  width: 85vw;
+}
+
+.sideheading {
+  font-size: 2rem;
+}
+  
+}

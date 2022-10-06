@@ -1,0 +1,158 @@
+.powerful-wrapper{
+    background-color:    #ffffff;;
+    
+}
+
+.powerful-heading-wrapper{
+    padding: 200px 0px;
+}
+
+
+
+.powerful-para{
+    font-size: 96px;
+    font-weight: bold;
+    color: #5989A9;
+}
+
+.powerful-img-wrapper{
+    width: 100%;
+}
+
+
+
+
+@media all and (max-width: 1024px) {
+      
+    .healthy-para{
+        font-size: 60px;
+        row-gap: 15px;
+    }
+
+    .powerful-img {
+        width: 130vw;
+        height: auto;
+        margin-left: -180px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        background-color: #151515;
+    }
+    
+  }
+
+
+  
+  /* from tablet */
+  @media all and (max-width: 768px) {
+    
+.healthy-img {
+    width: 130vw;
+    height: auto;
+    margin-left: -8.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    background-color: #151515;
+}
+
+.healthy-para{
+    font-size: 60px;
+    row-gap: 15px;
+}
+
+.healthy-heading-wrapper {
+    padding: 160px 0px 160px 0px;
+}
+    
+  }
+
+  /* from mobile */
+
+
+  @media all and (max-width: 570px) {
+    .healthy-img {
+        width: 130vw;
+        height: auto;
+        margin-left: -6.5rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        background-color: #151515;
+    }
+    
+
+    
+  }
+
+
+
+
+  @media all and (max-width: 490px) {
+    .healthy-img {
+        width: 150vw;
+        height: auto;
+        margin-left: -8.8rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        background-color: #151515;
+    }
+    
+    .healthy-para{
+        font-size: 40px;
+        row-gap: 15px;
+    }
+
+    .healthy-heading-wrapper {
+        padding: 140px 0px 140px 0px;
+    }
+    
+  }
+
+
+
+
+  @media all and (max-width: 426px) {
+    .healthy-img {
+        width: 150vw;
+        height: auto;
+        margin-left:-7.8rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        background-color: #151515;
+    }
+    
+    .healthy-para{
+        font-size: 40px;
+        row-gap: 15px;
+    }
+
+    .healthy-heading-wrapper {
+        padding: 140px 0px 140px 0px;
+    }
+    
+  }
+
+  @media all and (max-width: 380px) {
+    .healthy-img {
+        width: 150vw;
+        height: auto;
+        margin-left: -6.8rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        background-color: #151515;
+    }
+    
+    .healthy-para{
+        font-size: 40px;
+        row-gap: 15px;
+    }
+
+    .healthy-heading-wrapper {
+        padding: 140px 0px 140px 0px;
+    }
+    
+  }

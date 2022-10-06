@@ -1,0 +1,51 @@
+.gradient-green-1 {
+    background: #4BDF66;
+    background: linear-gradient(to bottom right, #4BDF66, #49CA61);
+}
+
+.gradient-blue-1 {
+    background: #1FABD5;
+    background: linear-gradient(to bottom right, #1FABD5, #5894CD);
+}
+
+.gradient-orange-1 {
+    background: #E58B1B;
+    background: linear-gradient(to bottom right, #E58B1B, #EB631B)
+}
+
+.gradient-red-1 {
+    background: #DA0635;
+    background: linear-gradient(to bottom right, #DA0635, #EA285D);
+}
+
+.gradient-red-pf-device {
+    background: #bf426c;
+    background: linear-gradient(to bottom right, #bf426c, #912340);
+}
+
+.playful-products {
+    height :  120% !important;
+    filter: drop-shadow(30px 40px 50px #222);
+}
+
+.wellness-feature {
+    height :  80% !important;
+    filter: drop-shadow(30px 40px 50px #222);
+}
+
+.bg-white-tg {
+    background-color: var(--tg-white) !important;
+}
+
+.bg-grey-tg {
+    background-color: var(--tg-bg-grey) !important;
+}
+
+.bg-black-tg {
+    background-color: var(--tg-black) !important;
+    color: var(--tg-white);
+}
+
+.bg-red-gradient-tg {
+    background-image: linear-gradient(to right, #C1446E, #BB3F67, #B83B63, #B63A62, #B1375D, #AE3459, #A83054, #A12C4E, #A62F52, #992848, #992848, #912340);
+}

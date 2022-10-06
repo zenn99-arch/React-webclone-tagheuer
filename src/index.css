@@ -1,0 +1,48 @@
+@import './common/style/Variables.css';
+@import './common/style/animation.css';
+@import './common/style/Common.css';
+@import './common/style/dimensions.css';
+@import './common//style//customClasses.css';
+
+
+/* tag heuer */
+@import './common/style/font/tagheuer/fonts.css';
+@import './common/style/tagheuer/tagheuer.css';
+
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  user-select: none;
+  font-family: proxima, sans-serif;
+
+}
+
+.tg-body {
+  /* background-color: var(--bg-black);
+  color: var(--bg-white); */
+  font-family: proxima, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  -webkit-user-drag: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

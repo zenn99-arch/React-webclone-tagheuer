@@ -1,0 +1,16 @@
+.red-button {
+    background-color: var(--tg-button-red);
+    color: var(--tg-white);
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    text-decoration: none;
+}
+
+.red-button:hover {
+    background-color: var(--tg-black);
+    color: var(--tg-white);
+}

@@ -1,0 +1,125 @@
+.tg-app-container {
+    height: 100vh;
+    background-color: var(--tg-white);
+    color: var(--tg-black);
+    width: auto;
+   margin: 100px 0;
+  
+}
+
+.tg-app-store-icon{
+    margin-left: 125px;
+}
+
+.logo{
+    height: 6.4rem;
+    
+    margin: 0 auto 0.2rem;
+    display: block;
+    position: relative;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tg-app-inner-container {
+    width: 100%;
+    height: 100%;
+}
+
+.tg-app-subheader {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: .16rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.tg-app-header {
+    max-width: 600px;
+    text-align: center;
+}
+
+.tg-app-store-icons {
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tg-app-store-icon {
+    height: 60%;
+}
+
+.tg-app-description {
+    font-size: 14px;
+    max-width: 500px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--tg-text-grey);
+}
+
+@media all and (max-width: 500px) {
+    .logo {
+        height: 4.4rem;
+    }
+
+    .tg-app-subheader {
+        font-size: 1.1rem;
+    }
+
+    .content-header {
+        font-size: 37px;
+    }
+
+    .tg-app-description {
+        font-size: 12px;
+    }
+    
+  }
+
+ 
+  /* from mobile */
+
+
+  @media all and (max-width: 376px) {
+    .logo {
+        height: 4.4rem;
+    }
+
+    .tg-app-subheader {
+        font-size: 1.1rem;
+    }
+
+    .content-header {
+        font-size: 35px;
+    }
+
+    .tg-app-description {
+        font-size: 12px;
+    }
+    
+  }
+
+
+
+
+  @media all and (max-width: 325px) {
+    .logo {
+        height: 4.4rem;
+    }
+
+    .tg-app-subheader {
+        font-size: 1.1rem;
+    }
+
+    .content-header {
+        font-size: 20px;
+    }
+
+    .tg-app-description {
+        font-size: 10px;
+    }
+    
+  }

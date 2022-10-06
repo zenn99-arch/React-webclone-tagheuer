@@ -1,0 +1,16 @@
+.active-wrapper{
+   
+    background-color: var(--tg-black);
+}
+
+.active-heading-wrapper{
+    padding: 200px 0px 0px 0px;
+}
+
+
+
+.active-para{
+    font-size: 96px;
+    font-weight: bold;
+    color: var(--tg-white);
+}

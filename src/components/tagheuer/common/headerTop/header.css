@@ -1,0 +1,133 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px;
+  height: var(--tg-header-height);
+}
+
+.right-nav-items {
+  gap: 25px;  
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.right-nav-item a {
+  text-decoration: none;
+  color: var(--tg-white);
+}
+
+.left-nav-items {
+  gap: 25px;
+  font-size: 12px; 
+}
+
+.header-logo {
+  height: 55px;
+  margin-right: 20px;
+}
+
+.seperator {
+  border-right: 0.1px solid var(--tg-bg-grey);
+  padding-right: 20px;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: var(--tg-white);
+  white-space: nowrap;
+  letter-spacing: 0.15rem;
+}
+
+.mobile-menu-wrapper{
+    position: relative;
+    width:100%;
+    background-color: var(--navbar);
+    border-bottom: 30px;
+    border-color: var(--bg-white);
+}
+
+.body-overflow-visible {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  .mobile-menu-button-wrapper {
+    z-index: 2;
+  }
+  .mobile-menu {
+    position: fixed;
+    background-color: var(--bg-black);
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    height: 100vh;
+    width: 100vw;
+    text-align: left;
+    padding: 2rem;
+    top: 0px;
+    left: 0px;
+    transition: transform 0.3s ease-in-out 0s;
+    z-index: 1;
+  }
+
+  .mobile-menu-button-wrapper {
+    scale: 0.1;
+  }
+
+  .mobile-menu.overlay {
+    transform: translateX(0px);
+  }
+  
+  .mobile-navbar {
+    margin-top: 65px;
+    overflow-y: hidden;
+    width: 90%;
+  }
+  
+  .mobile-nav-item {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: var(--bg-light-gray);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  @media all and (max-width: 1279px) {
+    .header-logo {
+      height: 45px;
+    }
+    .header-nav-item {
+      margin: 0px 6px 0px 8px;
+    }
+  }
+
+  @media all and (min-width: 768px) {
+    .header {
+      border-top: 1px solid var(--bg-light-gray);
+    }
+  }
+  
+  /* from tablet */
+  @media all and (max-width: 768px) {
+    .header {
+      padding: 20px 10px 20px;
+      height: var(--tg-header-table-height);
+    }
+
+    .right-nav-items {
+      font-size: 20px;
+    }
+
+    .header-logo {
+      height: 25px;
+      margin-right: 20px;
+    }
+  }
+
+  /* from mobile */
+  @media all and (max-width: 425px) {
+    .right-nav-items {
+      font-size: 15px;
+    }
+  }

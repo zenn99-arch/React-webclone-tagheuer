@@ -1,0 +1,23 @@
+
+.thrill-wrapper{
+   
+    background-color: var(--tg-white);
+}
+
+.thrill-heading-wrapper{
+    padding: 200px 0px;
+    
+}
+
+.thrill-headline{
+    font-size: 12px;
+    font-weight:bold;
+    margin: 0px 0px 30px ;
+    color: var(--tg-black);
+}
+
+.thrill-para{
+    font-size: 96px;
+    font-weight: bold;
+}
+
