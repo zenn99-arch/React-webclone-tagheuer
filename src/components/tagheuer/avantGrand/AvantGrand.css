@@ -1,9 +1,9 @@
 body {
-    background-color: var(--tg-bg-white);
+    background-color: var(--tg-black);
 }
 
 .avant-wrapper {
-    background-color: var(--tg-bg-white);
+    background-color: var(--tg-black);
     width: 100vw;
     overflow:hidden;
 }
@@ -27,7 +27,7 @@ body {
     margin: 0px 0px 30px;
     font-weight: bold;
     /* color: var(--tg-black); */
-    color: #5989A9;
+    color: var(--tg-white);
     text-transform: uppercase;
 }
 
@@ -35,20 +35,20 @@ body {
     font-size: 48px;
     font-weight: bold;
     /* color: var(--tg-black); */
-    color: #5989A9;
+    color:var(--tg-white);
     text-transform: uppercase;
 }
 
 .avant-section-text {
     height: 45vh;
-    background-color: var(--tg-bg-white);
+    background-color: var(--tg-black);
     justify-content: end;
     margin-bottom: 100px;
 }
 
 .avant-section {
-    height: 100vh;
-    background-color: var(--tg-white);
+    height: 55vh;
+    background-color: var(--tg-black);
 }
 
 .avant-section-inner {

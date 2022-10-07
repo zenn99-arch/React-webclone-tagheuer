@@ -14,8 +14,8 @@ const TagheuerApp = ({ data }) => {
         {data.header}
         </div>
         <div className='tg-app-store-icons flex'>
-         <a target="_blank_" href = "https://play.google.com/store/apps/details?id=com.prantae.proflou" > <img className='tg-app-store-icon' src={data.googlePlayIcon} />  </a>
-          {/* <img className='tg-app-store-icon' src={data.appStoreIcon} /> */}
+         <a target="_blank_"  > <img className='tg-app-store-icon' src={data.googlePlayIcon} />  </a>
+          <img className='tg-app-store-icon' src={data.appStoreIcon} />
         </div>
         <div className='tg-app-description'>
           {data.description}

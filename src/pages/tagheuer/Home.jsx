@@ -8,6 +8,7 @@ import { AirPods1 } from "../../assets/images/tagheuer/07.charger/is-sequences/l
 import { beHealthierImages } from "../../assets/images/tagheuer/06.wellness/is-sequences/large/";
 import { AirPods3 } from "../../assets/images/tagheuer/05.sport/is-sequences/large/";
 import { AirPods4 } from "../../assets/images/tagheuer/04.custom/is-sequences/large/";
+import { AirPods } from "../../assets/images/tagheuer/02.duo/is-sequences/large/";
 import { pfSet1 } from '../../assets/images/proflou/set1';
 import { pfSet2 } from '../../assets/images/proflou/set2';
 
@@ -20,22 +21,19 @@ const Home = () => {
       <HeaderBottom/>
       <Hero/>
       <AvantGrand/>
+      
       <CuttingEdge/>
-      <SleekNew/>
+      <SleekNew images={AirPods}/>
       <TheThrill images={AirPods4}/>
       <YourStrap featureData={featureDataTg} />
       <ActiveEveryday images={AirPods3}/>
-      <YourStrap featureData={performanceDataTg} />
+      <YourStrap featureData={youWellnessData} reverse={true} darkMode={true}/>
       <TextImageScroll data={beHealthierTgData}/>
       <YourStrap featureData={youWellnessData} reverse={true} darkMode={true}/>
       <MorePowerful images={AirPods1} data={morePowerfulPfData}/>
       <YourStrap featureData={topPerformerData} darkMode={false}/>
       <TagheuerApp data={tagHeuerAppData} />
-      {/* Proflo U */}
-      <TextImageScroll data={beHealthierPfData}/>
-      <YourStrap featureData={youWellnessPfData} reverse={true} darkMode={true}/>
-      <MorePowerful images={pfSet2} data={morePowerfulPfData}/>
-      <YourStrap featureData={featureDataPf} reverse={true}/>
+      
     </>
   )
 }

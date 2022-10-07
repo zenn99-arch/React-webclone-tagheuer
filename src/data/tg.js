@@ -31,7 +31,7 @@ import PerformanceThumbnail2 from '../assets/images/tagheuer/unsorted/performanc
 import PerformanceThumbnail3 from '../assets/images/tagheuer/unsorted/performance_thumb-3.jpg'
 import PerformanceThumbnail4 from '../assets/images/tagheuer/unsorted/performance_thumb-4.jpg'
 
-import TagHeuerAppIcon from '../assets/images/proflou/logo_orange.png'
+import TagHeuerAppIcon from '../assets/images/tagheuer/unsorted/tagapp.png'
 import GooglePlayIcon from '../assets/images/tagheuer/unsorted/download-android.png'
 import AppStoreIcon from '../assets/images/tagheuer/unsorted/download-ios.png'
 
@@ -170,9 +170,9 @@ export const topPerformerData = {
 
 export const tagHeuerAppData = {
     icon: TagHeuerAppIcon,
-    subHeader: "Proflo-U",
-    header: "GET THE PROFLO-U APP AND MAKE THE MOST OF YOUR PROFLO-U DEVICE CALIBRE ",
-    description: "More unique than ever thanks to a multitude of personalization options and insights into your achievements. Browse through your watchface collection and personalise colours and style to make it your own. Reach new levels of fitness with overview of your sessions tracked with your watch, and explore extended details: map, distance, duration, pace, calories, heart rate and much more.",
+    subHeader: "TagHeuer",
+    header: "GET THE TAG HEUER COMPANION APP AND MAKE THE MOST OF YOUR TAG HEUER CONNECTED CALIBRE E4 ",
+    description: "More unique than ever thanks to a multitude of personalization options and insights into your achievements.Browse through your watchface collection and personalise colours and style to make it your own.Reach new levels of fitness with overview of your sessions tracked with your watch, and explore extended details:map, distance, duration, pace, calories, heart rate and much more.",
     googlePlayIcon: GooglePlayIcon,
     appStoreIcon: AppStoreIcon
 }

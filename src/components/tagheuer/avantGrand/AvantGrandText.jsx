@@ -52,13 +52,13 @@ const AvantGrandText = () => {
 
             <div className="avant-heading-wrapper absolute-center flex flex-col">
                 <div className="avant-headline  absolute-center max-width " >
-                1st time in the World
+                avant-grade design
                 </div>
                 <span className="avant-para absolute-center flex flex-col">
-                    <div className="avant-para-ani absolute-center">A palm size </div>
-                    <div className="avant-para-ani absolute-center">mini analyzer</div>
-                    <div className="avant-para-ani absolute-center">to monitor </div>
-                    <div className="avant-para-ani absolute-center">Kidney Health  </div>
+                    <div className="avant-para-ani absolute-center">calibre e4, the next </div>
+                    <div className="avant-para-ani absolute-center">generation of tag</div>
+                    <div className="avant-para-ani absolute-center">heuer connected</div>
+                    <div className="avant-para-ani absolute-center">watch</div>
                 </span>
             </div>
         </div>

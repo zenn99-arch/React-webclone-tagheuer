@@ -1,12 +1,13 @@
 .header-bottom {
-    background-color:#F8F8F8;
+    background-color:var(--navbar);
     box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 0px 15px 0 rgb(0 0 0 / 19%);
+  
 }
 
 #navbar1 {
     z-index: 999;
     position: fixed;
-    top: 90px;
+    top: 0px;
     width: 100%;
     display: block;
     transition: top 0.5s;
@@ -14,7 +15,11 @@
 
 .header-bottom-container {
     height: 65px;
-    
+    border: 0.05px;
+    border-style: solid;
+    border-width: 0.005px 0;
+    border-style: solid;
+    border-color:rgb(111, 111, 111);
     
    
     width: 100%;
@@ -32,7 +37,7 @@
 }
 
 .nav-text1{
-    color: var(--tg-black);
+    color: var(--tg-white);
     font-size: 12px;
 }
 

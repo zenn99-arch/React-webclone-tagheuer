@@ -1,7 +1,7 @@
 import React from 'react'
 import './headerBottom.css'
 import Button from '../button/Button'
-import smallProduct from '../../../../assets/images/proflou/nav-icon.png'
+import smallProduct from '../../../../assets/images/tagheuer/unsorted/watches.png'
 
 const HeaderBottom = () => {
 
@@ -22,7 +22,7 @@ var currentScrollPos = window.pageYOffset;
         <div className='header-bottom-left absolute-center flex'>
           <a className='nav-link flex absolute-center' href='#'>
             <img className='header-bottom-image' src={smallProduct} alt="product" />
-            <p className='nav-text1'>Proflo-u Kidney health</p>
+            <p className='nav-text1'>Tag Heuer Connect e4</p>
           </a>
         </div>
         <div className='header-bottom-right '>
