@@ -1,4 +1,5 @@
 This website is a clone creation of a website
+made using react js and Gsap for animation
 
 give it a look - https://react-webclone-tagheuer.vercel.app/
 
