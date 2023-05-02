@@ -17,7 +17,7 @@ var currentScrollPos = window.pageYOffset;
 }
 
   return (
-    <div id="navbar1" className='header-bottom non-tablet-only absolute-center flex'>
+    <div  className='header-bottom non-tablet-only absolute-center flex'>
       <div className='flex header-bottom-container absolute-center '>
         <div className='header-bottom-left absolute-center flex'>
           <a className='nav-link flex absolute-center' href='#'>

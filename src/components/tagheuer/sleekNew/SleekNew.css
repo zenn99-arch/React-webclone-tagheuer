@@ -14,14 +14,14 @@
   font-size: 12px;
   font-weight: bold;
   margin: 0px 0px 30px;
-  color: var(--tg-white);
+  color: var(--tg-black);
 }
 
 .sleek-para {
   font-size: 30px;
   font-weight: bold;
   margin: 0px 0px 30px;
-  color: var(--tg-white);
+  color: var(--tg-black);
   position: sticky;
   text-transform: uppercase;
   line-height: 3.2rem;

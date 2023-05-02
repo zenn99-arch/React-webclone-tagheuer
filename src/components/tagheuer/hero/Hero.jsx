@@ -24,7 +24,7 @@ const Hero = () => {
     tl.to('.hero-floating-imgs',
     {
       x: 0,
-      y: -400
+      y: -140
     }, "+=0.0")
   }, [])
   

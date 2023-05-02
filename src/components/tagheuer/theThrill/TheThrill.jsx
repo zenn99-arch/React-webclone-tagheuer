@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./TheThrill.css";
-import { gsap,Power4 } from "gsap";
+import './TheThrill.css'
+import { gsap, Power4 } from "gsap";
+import { GRADIENT_RED_PF_DEVICE } from "../../../data/customClasses";
 
-const TheThrill = ({ images }) => {
+const TheThrill = ({ data, images }) => {
 
   const imgScrollRef = useRef(null);
   const textRef = useRef(null);
@@ -87,26 +88,25 @@ useEffect(() => {
 }, []);
 
 
-
   return (
     <section className="thrill-section">
-      <div className="thrill-wrapper ">
-      <div className="powerful-heading-wrapper absolute-center flex flex-col">
-          <span className="powerful-para absolute-center flex flex-col">
+      <div className={`thrill-wrapper `} ref={textRef}>
+        <div className="thrill-heading-wrapper absolute-center flex flex-col">
+          <span className="thrill-para absolute-center flex flex-col">
             <div className="absolute-center more-powerful-ani">RESULTS</div>
             <div className="absolute-center more-powerful-ani">IN</div>
             <div className="absolute-center more-powerful-ani">JUST</div>
             <div className="absolute-center more-powerful-ani">1 MINUTES</div>
           </span>
         </div>
-        <div className="thrill-img-wrapper  " ref={imgScrollRef}>
-          <div className="thrill-img ">
-            <img className="img-center" src={images[index]} alt="watch" />
+        <div className="powerful-img-wrapper" ref={imgScrollRef}>
+          <div className="powerful-img ">
+            <img className='img-center' src={images[index]} alt='watch' />
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default TheThrill;
+export default TheThrill

@@ -78,6 +78,17 @@ export const featureDataTg = {
         ]
 }
 
+export const morePowerfulPfData = {
+    accentColor: "#000000",
+    textColor: null,
+    spanTexts: ["RESULTS","IN","JUST","60 SECONDS"],
+    spanText1: "RESULTS",
+    spanText2: "IN",
+    spanText3: "JUST",
+    spanText4: "1 MINUTES",
+    uniqueTag: "powerful-text",
+}
+
 export const performanceDataTg = {
     type: 2,
     backgroundColor: BG_WHITE_TG,
@@ -191,7 +202,7 @@ export const FaqText = [
 
 export const beHealthierTgData = {
     accentColor: null,
-    spanTexts: ["EVERYDAY","KIDNEY","GUARDIAN"],
+    spanTexts: ["HEALTHY","EVERY","DAY"],
     spanText1: "HEALTHY",
     spanText2: "EVERY",
     spanText3: "DAY",
