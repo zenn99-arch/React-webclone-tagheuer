@@ -16,7 +16,7 @@ const Hero = () => {
       scrollTrigger: {
         trigger: heroRef.current,
         start: "top top",
-        end: "+=900",
+        end: "+=700",
         scrub: true,
         onUpdate: self => console.log(self.progress),
       }

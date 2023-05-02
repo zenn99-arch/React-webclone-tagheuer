@@ -90,7 +90,7 @@ useEffect(() => {
   return (
     <section className="powerful-section" style={{backgroundColor: '#fff'}}>
       <div className={`powerful-wrapper `} ref={textRef}>
-        <div className="powerful-heading-wrapper absolute-center flex flex-col">
+        <div className="powerful-heading-wrapper absolute-center flex flex-col" style={{backgroundColor: '#000'}}>
           <span className="powerful-para absolute-center flex flex-col">
             <div className="absolute-center more-powerful-ani">ACTIVE</div>
             <div className="absolute-center more-powerful-ani">EVERY</div>

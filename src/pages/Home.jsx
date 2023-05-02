@@ -8,6 +8,7 @@ import { AirPods1 } from "../assets/images/tagheuer/07.charger/is-sequences/larg
 import { AirPods3 } from "../assets/images/tagheuer/05.sport/is-sequences/large";
 import { AirPods4 } from "../assets/images/tagheuer/04.custom/is-sequences/large";
 import { AirPods } from "../assets/images/tagheuer/02.duo/is-sequences/large";
+import { beHealthierImages } from '../assets/images/tagheuer/06.wellness/is-sequences/large';
 
 const Home = () => {
   const imgScrollRef = useRef(null)
@@ -24,7 +25,7 @@ const Home = () => {
       <TheThrill images={AirPods4}/>
       <YourStrap featureData={featureDataTg} />
       <ActiveEveryday images={AirPods3}/>
-      <TextImageScroll data={beHealthierTgData}/>
+      <TextImageScroll images={beHealthierImages}/>
       <YourStrap featureData={youWellnessData} reverse={true} darkMode={true}/>
       <MorePowerful images={AirPods1} />
       <YourStrap featureData={topPerformerData} darkMode={false}/>
