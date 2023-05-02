@@ -20,33 +20,33 @@ const TextImageScroll = ({ data }) => {
   useEffect(() => {
     const textTrigger = () => {
       const tl = gsap.timeline({
-        delay: 0,
+        delay: 1,
         scrollTrigger: {
           trigger: textRef.current,
           scrub: true,
           start: "top bottom",
-          end: "+=800",
+          end: "+=1000",
           // onUpdate: (self) => console.log(self.progress),
         },
       });
 
       tl.fromTo(`.${data.uniqueTag}`,
-        {
-          opacity: 0,
-          scale: 2,
+      {
+        opacity: 0,
+        scale: 4,
+      },
+      {
+        opacity: 1,
+        scale: 1,
+        ease: Power4.easeInOut,
+        delay: function (i) {
+          return 0.07 * i;
         },
-        {
-          opacity: 1,
-          scale: 1,
-          ease: Power4.easeInOut,
-          delay: function (i) {
-            return 0.3 * i;
-          },
-        },
-        "=0.0")
+      },
+      "=0.0")
 
-      return tl;
-    };
+    return tl;
+  };
 
     const imgScrollTrigger = () => {
       const tl = gsap.timeline({

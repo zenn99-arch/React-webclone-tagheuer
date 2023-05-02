@@ -9,13 +9,13 @@ const CuttingEdge = () => {
         <div className="cutting-wrapper   ">
 
             <div className="cutting-headline-wrapper absolute-center flex flex-col ">
-                <div className="cutting-headline absolute-center max-width">Mini Analyzer For Kidney Health</div>
+                <div className="cutting-headline absolute-center max-width">CUTTING EDGE TECHNOLOGY</div>
 
                 <div className="cutting-para-wrapper">
                 <span className="cutting-para absolute-center flex flex-col">
-          <div className="absolute-center">Reliable</div>
-          <div className="absolute-center">Urine albumin results</div>
-          <div className="absolute-center">Everytime</div>
+          <div className="absolute-center">PEAK PERFORMANCE</div>
+          <div className="absolute-center">MEETS UNMATCHED</div>
+          <div className="absolute-center">ELEGANCE</div>
                 </span>
                 </div>
             </div>

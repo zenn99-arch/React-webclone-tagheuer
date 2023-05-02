@@ -16,7 +16,7 @@ const Hero = () => {
       scrollTrigger: {
         trigger: heroRef.current,
         start: "top top",
-        end: "+=700",
+        end: "+=900",
         scrub: true,
         onUpdate: self => console.log(self.progress),
       }
@@ -24,7 +24,7 @@ const Hero = () => {
     tl.to('.hero-floating-imgs',
     {
       x: 0,
-      y: -400
+      y: -140
     }, "+=0.0")
   }, [])
   

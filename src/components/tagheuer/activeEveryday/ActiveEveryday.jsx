@@ -1,15 +1,46 @@
 import React, { useEffect, useRef, useState } from "react";
-import './ActiveEveryday.css';
-import { gsap } from "gsap";
+import { gsap, Power4 } from "gsap";
+import { GRADIENT_RED_PF_DEVICE } from "../../../data/customClasses";
 
-const ActiveEveryday = ({ images }) => {
+const ActiveEveryday = ({ data, images }) => {
 
   const imgScrollRef = useRef(null);
+  const textRef = useRef(null);
   const [progress, setProgress] = useState(0);
   const [index, setIndex] = useState(0);
   const [width, setWidth] = useState(100);
 
   useEffect(() => {
+    const textTrigger = () => {
+      const tl = gsap.timeline({
+        delay: 1,
+        scrollTrigger: {
+          trigger: textRef.current,
+          scrub: true,
+          start: "top bottom",
+          end: "+=1000",
+          // onUpdate: (self) => console.log(self.progress),
+        },
+      });
+
+      tl.fromTo('.more-powerful-ani',
+        {
+          opacity: 0,
+          scale: 2,
+        },
+        {
+          opacity: 1,
+          scale: 1,
+          ease: Power4.easeInOut,
+          delay: function (i) {
+            return 0.3 * i;
+          },
+        },
+        "=0.0")
+
+      return tl;
+    };
+
     const imgScrollTrigger = () => {
       const tl = gsap.timeline({
         delay: 0,
@@ -28,32 +59,51 @@ const ActiveEveryday = ({ images }) => {
 
     const master = gsap.timeline();
     master.add(imgScrollTrigger());
+    master.add(textTrigger());
   }, []);
 
   useEffect(() => {
     setIndex(Math.floor(((images.length - 1) / 100) * progress * 100));
-
     setWidth(100 - 25 * progress);
-    console.log(width);
   }, [progress]);
 
+
+//preloading images
+
+useEffect(() => {
+  const randomStr = Math.random().toString(32).slice(2) + Date.now();
+  window.usePreloadImagesData = window.usePreloadImagesData ?? {};
+  window.usePreloadImagesData[randomStr] = [];
+  for (const src of images) {
+    // preload the image
+    const img = new Image();
+    img.src = src;
+    // keep a reference to the image
+    window.usePreloadImagesData[randomStr].push(img); 
+  }
+  return () => {
+    delete window.usePreloadImagesData?.[randomStr];
+  };
+}, []);
+
+
   return (
-    <section className="active-section">
-    <div className="active-wrapper">
-      <div className="active-heading-wrapper absolute-center flex flex-col">
-        <span className="active-para absolute-center flex flex-col">
-          <div className="absolute-center">ACTIVE</div>
-          <div className="absolute-center">EVERY</div>
-          <div className="absolute-center">DAY</div>
-        </span>
-    </div>
-        <div className="active-img-wrapper" ref={imgScrollRef} >
-        <div className="active-img ">
-            <img className='img-center' src={images[index]} alt='watch' />
+    <section className="powerful-section" style={{backgroundColor: '#fff'}}>
+      <div className={`powerful-wrapper `} ref={textRef}>
+        <div className="powerful-heading-wrapper absolute-center flex flex-col">
+          <span className="powerful-para absolute-center flex flex-col">
+            <div className="absolute-center more-powerful-ani">ACTIVE</div>
+            <div className="absolute-center more-powerful-ani">EVERY</div>
+            <div className="absolute-center more-powerful-ani">DAY</div>
+          </span>
         </div>
-      </div >
+        <div className="powerful-img-wrapper" ref={imgScrollRef}>
+          <div className="powerful-img ">
+            <img className='img-center' src={images[index]} alt='watch' />
+          </div>
+        </div>
       </div>
-  </section>
+    </section>
   )
 }
 

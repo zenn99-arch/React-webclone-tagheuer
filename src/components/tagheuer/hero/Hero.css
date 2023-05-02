@@ -38,7 +38,7 @@
     position: absolute;
     justify-content: center;
     bottom: 0;
-    gap: 350px;
+    gap: 500px;
     width: 100%;
     z-index: 300;
    
@@ -50,7 +50,7 @@
 
 .hero-floating-img.float-2{
     height: 450px;
-    top: 50px;
+    top: 100px;
     left: 100px;
     margin-top: 150px;
 }

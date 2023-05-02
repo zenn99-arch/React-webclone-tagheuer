@@ -20,7 +20,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   overflow-x: hidden !important;
-  user-select: none;
   font-family: proxima, sans-serif;
 
 }

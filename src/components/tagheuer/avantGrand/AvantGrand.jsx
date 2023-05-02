@@ -51,10 +51,6 @@ const AvantGrand = ({images}) => {
   return (
     <section className="avant-section flex absolute-center" ref={imgScrollRef} >
 
-      <div className="avant-img only-mobile"  >
-        <img className='img-center avantimg' src={require('../../../assets/images/proflou/water device.jpg')} alt='watch' />
-      </div>
-
       <div className='avant-section-inner flex flex-col non-mobile' style={{ maxWidth: `${width}%` }}>
         <div className="avant-img"  >
           <img className='img-center' src={images[index]} alt='watch' />

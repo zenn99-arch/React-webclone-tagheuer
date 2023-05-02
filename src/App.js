@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Tagheuer from './pages/tagheuer/Home'
+import Tagheuer from './pages/Home'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
