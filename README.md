@@ -1,4 +1,4 @@
-#tagheuer website Clone
+#tagheuer-website-Clone
 
 This website is a clone creation.
 Made using react js and Gsap for animation
